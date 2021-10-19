@@ -6,12 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
     
+    <style>
+
+        #txt-input{
+            border: 1px solid black;
+            height: 10vh ;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }      
+        #output{
+            border: 1px solid black;
+            height: 10vh ;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <h1>Hello World</h1>
     <textarea id ="txt-input"
     placeholder="enter the input here"></textarea>
     <button id="btn-translate">Click Here</button>
+    
+    <div style="font-size: larger;">output will come here</div>
+    <div id="output"></div>
     <script src="app.js" type ="text/javascript"></script>
 </body>
 </html>
